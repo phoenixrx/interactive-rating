@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" defer></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <main>
+      <article class="opinion pantalla activa">
+        <img class="estrella" src="images/icon-star.svg" alt="estrtella" />
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <nav class="puntuacion">
+          <a href="#" class="boton">1</a>
+          <a href="#" class="boton">2</a>
+          <a href="#" class="boton">3</a>
+          <a href="#" class="boton">4</a>
+          <a href="#" class="boton">5</a>
+        </nav>
+        <a href="#" class="enviar" id="puntuar"> Submit </a>
+      </article>
+      <!-- Rating state end -->
+      <!-- Thank you state start -->
+      <article class="thankyou pantalla">
+        <div class="imagen">
+          <img
+            src="images/illustration-thank-you.svg"
+            alt="Gracias"
+            class="gracias"
+          />
+        </div>
+        <div class="titulo">
+          <h2 id="h2">You selected out of 5</h2>
+        </div>
+
+        <!-- Add rating here -->
+        <h1>Thank you!</h1>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </article>
+    </main>
+
+    <!-- Thank you state end -->
+
+    <div class="attribution">
+      Challenge by&nbsp
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor </a
+      >. Coded by&nbsp<a href="#">Jose Luna</a>.
+    </div>
+  </body>
+</html>
